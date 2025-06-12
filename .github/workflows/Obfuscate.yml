@@ -45,7 +45,7 @@ jobs:
           --string-array-threshold 0.75 \
           --transform-object-keys true \
           --self-defending false \
-          --minify true
+          --simplify true
 
       - name: 提交更改
         uses: stefanzweifel/git-auto-commit-action@v5
