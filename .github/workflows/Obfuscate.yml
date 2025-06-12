@@ -36,7 +36,7 @@ jobs:
 
       - name: Obfuscate BPB worker js
         run: |
-          javascript-obfuscator origin.js --worker.js \
+          javascript-obfuscator origin.js --output _worker.js \
           --compact true \
           --identifier-names-generator hexadecimal \
           --rename-globals true \
